@@ -15,7 +15,7 @@ function App() {
             <Card.Title>Breakfast</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              bulk of the card's content. Nice!
             </Card.Text>
             <Dropdown>
               <Dropdown.Toggle variant="primary" id="dropdown-basic">
