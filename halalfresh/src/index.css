@@ -13,6 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing between cards */
+}
+
 a {
   font-weight: 500;
   color: #646cff;
