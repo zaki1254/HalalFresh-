@@ -1,6 +1,10 @@
 import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
 import reactLogo from './assets/react.svg';
 import './App.css';
+import Navigation  from './components/navigation/navigation';
+import Footer from './components/footer/footer';
+
 import { Button, Card, Dropdown } from 'react-bootstrap'; // Import Button, Card, and Dropdown from react-bootstrap
 
 function App() {
@@ -8,6 +12,20 @@ function App() {
 
   return (
     <>
+      <div className="App">
+        <Router>
+          <Navigation />
+          <Routes>
+              {/* <Route path="/about" element={<About />} />
+              <Route path="/foodbanks" element={<FoodBanks />} />
+              <Route path="/ourMenu" element={<Partners />} />
+              <Route path="/FAQs" element={<FAQs />} />
+              <Route path="/donate" element={<Donate />} /> */}
+          </Routes>
+          <Footer />
+        </Router>
+      </div>
+
       <div className="card-container">
         <Card style={{ width: '18rem' }}>
           <Card.Img variant="top" src={reactLogo} />
