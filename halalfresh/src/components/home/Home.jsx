@@ -21,7 +21,7 @@ function Home() {
         textAlign: 'center', // Center text
         padding: '20px' // Add padding for better readability
       }}>
-        <h1>Bringing Somalia’s Flavours to Your Doorstep</h1>
+        <h1 className='mainH1'>Bringing Somalia’s Flavours to Your Doorstep</h1>
         <div className="card-container" style={{ marginBottom: '50px' }}>
           <CardComponent title="Breakfast" imageSrc={malawahImage} />
           <CardComponent title="Lunch" imageSrc={bananaImage} />
