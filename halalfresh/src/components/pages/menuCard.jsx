@@ -10,6 +10,13 @@ function MenuCard({ title, image }) {
     setQuantity(quantity + 1);
   };
 
+  // Function to decrement the quantity
+  const decrementQuantity = () => {
+    if (quantity > 0) {
+      setQuantity(quantity - 1);
+    }
+  };
+
   // State to track whether recipe modal is open for each card
   const [showRecipeModal, setShowRecipeModal] = useState(false);
 
@@ -22,13 +29,14 @@ function MenuCard({ title, image }) {
     <div className="menu-card">
       <img src={image} alt={title} />
       <h3>{title}</h3>
-      <div className="button-container">
-        <button onClick={incrementQuantity}>+1</button>
-        <span>{quantity}</span>
-        <button onClick={toggleRecipeModal} className="recipe-button">
-          {showRecipeModal ? 'Hide Recipe' : 'View Recipe'}
-        </button>
+      <div className="quantity-container">
+        <button className="quantity-button" onClick={decrementQuantity}>-</button>
+        <span className="quantity-number">{quantity}</span>
+        <button className="quantity-button" onClick={incrementQuantity}>+</button>
       </div>
+      <button onClick={toggleRecipeModal} className="recipe-button">
+        {showRecipeModal ? 'Hide Recipe' : 'View Recipe'}
+      </button>
       {showRecipeModal && (
         <div className="recipe-container">
           {/* Render recipe content here */}

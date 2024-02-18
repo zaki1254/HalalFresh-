@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./navigation.css";
 import { NavLink } from "react-router-dom";
+import halalLogo from '../../assets/halalLogo.png'
 
 const Navigation = () => {
   const [click, setClick] = useState(false);
@@ -10,7 +11,7 @@ const Navigation = () => {
   return (
     <nav className={click ? "Navbar__column" : "Navbar-flex"}>
       <div className="navbar__logo">
-        <h1>Halal<br></br>Fresh</h1>
+        <img src={halalLogo} className="halalLogo"/>
       </div>
       
       <div className={click ? "navbar__navbar" : "navbar__navbar-mobile"}>

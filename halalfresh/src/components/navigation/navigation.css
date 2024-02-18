@@ -64,7 +64,6 @@ nav {
     font-weight: 400;
     margin: 0 20px;
     text-align: center;
-    margin-left: 330px;
 }
 
 .nav__links_r > a:hover {
@@ -87,7 +86,7 @@ nav {
     font-style: normal;
     font-weight: 400;
     margin-right: 35px;
-    margin-left: 20px;
+    margin-left: 350px;
     display: flex;
 }
 
@@ -112,4 +111,8 @@ nav {
 .nav__links-Order:hover{
     color: orange;
     background: #e48749;
+}
+
+.halalLogo{
+    height: 140px;
 }
