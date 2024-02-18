@@ -9,6 +9,8 @@ import Register from './components/pages/register';
 import StartOrder from './components/pages/startOrder';
 import Footer from './components/footer/footer';
 
+
+
 function App() {
   return (
     <div className="App">
@@ -23,7 +25,9 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+     
     </div>
+    
   );
 }
 
