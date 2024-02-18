@@ -14,9 +14,15 @@ import RecipeModal from './components/recipeModal/recipeModal'; // Import the Re
 
 
 
+import backgroundImage from "./components/home/images/BACKGROUND.jpeg"; // Import the background image
+
 function App() {
   return (
-    <div className="App">
+    <div style={{
+      backgroundImage: `url(${backgroundImage})`, 
+      backgroundSize: 'cover',
+      height: '100vh'
+    }}>
       <Router>
         <Navigation />
         <Routes>
@@ -29,9 +35,8 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-     
+      
     </div>
-    
   );
 }
 

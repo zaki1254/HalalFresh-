@@ -6,11 +6,11 @@ import suqaarImage from './images/suqaar.webp'; // Import the image for dinner
 
 function Home() {
   return (
+   
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-end', minHeight: '100vh' }}>
       <div className="card-container" style={{ marginBottom: '50px' }}>
         <CardComponent title="Breakfast" imageSrc={malawahImage} />
         <CardComponent title="Lunch" imageSrc={bananaImage} />
-        <CardComponent title="Dinner" imageSrc={suqaarImage} />
       </div>
     </div>
   );

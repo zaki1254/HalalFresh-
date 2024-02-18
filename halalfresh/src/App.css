@@ -45,3 +45,10 @@
   margin: px
   ;
 }
+/* styles.css */
+.transparent-background {
+  background-image: url("/BACKGROUND.jpeg");
+  background-size: cover;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value (0.5) for the desired transparency */
+}
