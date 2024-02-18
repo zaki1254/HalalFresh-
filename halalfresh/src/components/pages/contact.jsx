@@ -28,6 +28,7 @@ const Contact = () => {
       console.log('Please fill out all required fields');
     }
   };
+  
 
   return (
     <div className="container">
