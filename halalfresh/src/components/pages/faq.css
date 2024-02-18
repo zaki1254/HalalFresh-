@@ -27,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
+    background: transparent;
     padding: 10px;
     cursor: pointer;
   }
@@ -35,7 +35,7 @@
   .faq-answer {
     padding: 10px;
     display: none;
-    background: white;
+    background: transparent;
   }
   
   .faq-answer.open {
