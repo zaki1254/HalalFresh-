@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <nav className={click ? "Navbar__column" : "Navbar-flex"}>
       <div className="navbar__logo">
-        <h1>HalalFresh</h1>
+        <h1>Halal<br></br>Fresh</h1>
       </div>
       
       <div className={click ? "navbar__navbar" : "navbar__navbar-mobile"}>
@@ -33,18 +33,20 @@ const Navigation = () => {
             </NavLink>
           </li>
 
-          <li className="nav__links">
+          <li className="nav__links_r">
             <NavLink to="/register" activeClassName="active">
               Register
             </NavLink>
           </li>
-
-          <li className="nav__links nav__links-Order">
-            <NavLink to="/startOrder" activeClassName="active">
-              Start An Order
-            </NavLink>
-          </li>
         </ul>
+        
+        <div className="nav__links-Order">
+          <NavLink to="/startOrder" activeClassName="active">
+            Start An Order
+          </NavLink>
+        </div>
+
+
       </div>
     </nav>
   );
