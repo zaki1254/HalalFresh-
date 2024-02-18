@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Card, Dropdown } from 'react-bootstrap';
+import { NavLink } from "react-router-dom"
+import './card.css'
 
 function CardComponent({ title, imageSrc }) {
   return (
@@ -11,19 +13,14 @@ function CardComponent({ title, imageSrc }) {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Dropdown>
-          <Dropdown.Toggle variant="primary" id="dropdown-basic">
-            Select Option
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
 
-            <Dropdown.Item href="#/action-1">Option 1</Dropdown.Item>
-            <Dropdown.Divider />
-            <Dropdown.Item href="#/action-2">Option 2</Dropdown.Item>
-            <Dropdown.Divider />
-            <Dropdown.Item href="#/action-3">Option 3</Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
+        <div className="MainButton">
+          <NavLink to="/menu" activeClassName="active"> {/* Assuming Start Order page has its own route */}
+          <button className='MainButton'>
+          Select Option
+        </button>
+          </NavLink>
+          </div>
       </Card.Body>
     </Card>
   );

@@ -42,7 +42,7 @@ const Navigation = () => {
         </ul>
         
         <div className="nav__links-Order">
-          <NavLink to="/startOrder" activeClassName="active"> {/* Assuming Start Order page has its own route */}
+          <NavLink to="/menu" activeClassName="active"> {/* Assuming Start Order page has its own route */}
             Start An Order
           </NavLink>
         </div>
