@@ -16,7 +16,7 @@ const Navigation = () => {
       <div className={click ? "navbar__navbar" : "navbar__navbar-mobile"}>
         <ul className={click ? "nav__items-flex" : "nav__items"}>
           <li className="nav__links">
-            <NavLink to="/ourMenu" activeClassName="active">
+            <NavLink to="/menu" activeClassName="active"> {/* Updated to="/menu" */}
               Our Menu
             </NavLink>
           </li>
@@ -41,12 +41,10 @@ const Navigation = () => {
         </ul>
         
         <div className="nav__links-Order">
-          <NavLink to="/ourMenu" activeClassName="active">
+          <NavLink to="/startOrder" activeClassName="active"> {/* Assuming Start Order page has its own route */}
             Start An Order
           </NavLink>
         </div>
-
-
       </div>
     </nav>
   );

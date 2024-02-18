@@ -8,6 +8,9 @@ import Contact from './components/pages/contact';
 import Register from './components/pages/register';
 import StartOrder from './components/pages/startOrder';
 import Footer from './components/footer/footer';
+import Menu from './components/pages/menu'; // Import the Menu component
+import RecipeModal from './components/recipeModal/recipeModal'; // Import the RecipeModal component
+
 
 function App() {
   return (
@@ -15,7 +18,8 @@ function App() {
       <Router>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Home />} /> {/* Set CardComponent as the landing page */}
+          <Route path="/" element={<Home />} /> {/* Set Home as the landing page */}
+          <Route path="/menu" element={<Menu />} /> {/* Add a route for the Menu page */}
           <Route path="/FAQs" element={<FAQs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/register" element={<Register />} />

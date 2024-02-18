@@ -1,0 +1,13 @@
+/* menu.css */
+.menu-container {
+    padding: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

@@ -16,6 +16,7 @@ function CardComponent({ title, imageSrc }) {
             Select Option
           </Dropdown.Toggle>
           <Dropdown.Menu>
+
             <Dropdown.Item href="#/action-1">Option 1</Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item href="#/action-2">Option 2</Dropdown.Item>
