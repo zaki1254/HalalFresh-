@@ -60,3 +60,17 @@
     background-color: #02264f;
   }
   
+
+  .minus_button{
+    background: transparent;
+    color: #02264f;
+    margin-right: 10px;
+  }
+
+  .plus_button{
+    background: transparent;
+    color: #02264f;
+    margin-left: 10px;
+  }
+
+  

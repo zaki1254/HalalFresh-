@@ -1,7 +1,8 @@
 /* menu.css */
 .menu-container {
     padding: 20px;
-    justify-content: space-around;
+    color: #03396C;
+    text-align: center;
   }
   
   .card-container {
@@ -9,6 +10,7 @@
     flex-direction: row;
     justify-content: space-around;
     gap: 20px;
+    background: white;
   }
   
   /* Add more styles as needed */

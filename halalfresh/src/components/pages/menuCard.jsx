@@ -30,9 +30,9 @@ function MenuCard({ title, image }) {
       <img src={image} alt={title} />
       <h3>{title}</h3>
       <div className="quantity-container">
-        <button className="quantity-button" onClick={decrementQuantity}>-</button>
-        <span className="quantity-number">{quantity}</span>
-        <button className="quantity-button" onClick={incrementQuantity}>+</button>
+        <button onClick={decrementQuantity} className='minus_button'>-</button>
+        <span>{quantity}</span>
+        <button onClick={incrementQuantity} className='plus_button'>+</button>
       </div>
       <button onClick={toggleRecipeModal} className="recipe-button">
         {showRecipeModal ? 'Hide Recipe' : 'View Recipe'}
@@ -40,7 +40,33 @@ function MenuCard({ title, image }) {
       {showRecipeModal && (
         <div className="recipe-container">
           {/* Render recipe content here */}
-          <p>This is the recipe for {title}.</p>
+          <p>Ingredients
+            <br></br>
+            <ul>
+                <li>
+                1 cup white corn flour
+                </li>
+                <li>
+                ½ cup sorghum flour
+                </li>
+                <li>
+                1 Tbsp Instant dry yeast
+                </li>
+                <li>
+                4 cups self-raising flour
+                </li>
+                <li>
+                ¼ cup sugar
+                </li>
+                <li>
+                1 tsp salt
+                </li>
+                <li>
+                    4 cups lukewarm water
+                </li>
+            </ul>
+
+{title}.</p>
         </div>
       )}
     </div>

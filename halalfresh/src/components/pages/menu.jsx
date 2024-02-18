@@ -31,29 +31,29 @@ function Menu() {
         <h2>Breakfast</h2>
         <div className="card-container">
           {/* Render card components for breakfast items */}
-          <MenuCard title="Breakfast Item 1" image={breakfast1} onClick={toggleRecipeModal} />
-          <MenuCard title="Breakfast Item 2" image={breakfast2} onClick={toggleRecipeModal} />
-          <MenuCard title="Breakfast Item 3" image={breakfast3} onClick={toggleRecipeModal} />
+          <MenuCard title="Malawax" image={breakfast1} onClick={toggleRecipeModal} />
+          <MenuCard title="Canjero" image={breakfast2} onClick={toggleRecipeModal} />
+          <MenuCard title="Muufo" image={breakfast3} onClick={toggleRecipeModal} />
         </div>
       </div>
       <div className="menu-section">
         <h2>Lunch</h2>
         <div className="card-container">
           {/* Render card components for lunch items */}
-          <MenuCard title="Lunch Item 1" image={lunch1} onClick={toggleRecipeModal} />
-          <MenuCard title="Lunch Item 2" image={lunch2} onClick={toggleRecipeModal} />
-          <MenuCard title="Lunch Item 3" image={lunch3} onClick={toggleRecipeModal} />
-          <MenuCard title="Lunch Item 4" image={lunch4} onClick={toggleRecipeModal} />
-          <MenuCard title="Lunch Item 5" image={lunch5} onClick={toggleRecipeModal} />
+          <MenuCard title="Bariis" image={lunch1} onClick={toggleRecipeModal} />
+          <MenuCard title="Baasto" image={lunch2} onClick={toggleRecipeModal} />
+          <MenuCard title="Hilib Ari" image={lunch3} onClick={toggleRecipeModal} />
+          <MenuCard title="Chicken Suqaar" image={lunch4} onClick={toggleRecipeModal} />
+          <MenuCard title="Hilib Geel" image={lunch5} onClick={toggleRecipeModal} />
         </div>
       </div>
       <div className="menu-section">
         <h2>Dessert</h2>
         <div className="card-container">
           {/* Render card components for dessert items */}
-          <MenuCard title="Dessert Item 1" image={dessert1} onClick={toggleRecipeModal} />
-          <MenuCard title="Dessert Item 2" image={dessert2} onClick={toggleRecipeModal} />
-          <MenuCard title="Dessert Item 3" image={dessert3} onClick={toggleRecipeModal} />
+          <MenuCard title="Buur" image={dessert1} onClick={toggleRecipeModal} />
+          <MenuCard title="Sambuus" image={dessert2} onClick={toggleRecipeModal} />
+          <MenuCard title="Kackac" image={dessert3} onClick={toggleRecipeModal} />
         </div>
       </div>
     </div>
