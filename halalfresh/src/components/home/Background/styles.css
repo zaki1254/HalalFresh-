@@ -1,9 +1,179 @@
-/* styles.css */
-.transparent-background {
-  background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value (0.5) for the desired transparency */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+/* Styles for the container div with class "index" */
+.index {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styles for the image element with class "rectangle" */
+.rectangle {
+  width: 100px;
+}
+
+/* Styles for the div element with class "group" */
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for the div element with class "div-wrapper" */
+.div-wrapper {
+  margin-left: 10px;
+}
+
+/* Styles for the div element with class "text-wrapper" */
+.text-wrapper {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styles for the paragraph element with class "bringing-somalia-s" */
+.bringing-somalia-s {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Styles for the paragraph element with class "p" */
+.p {
+  font-style: italic;
+}
+
+/* Styles for the div element with class "text-wrapper-2" */
+.text-wrapper-2 {
+  font-weight: bold;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+/* Styles for the div element with class "text-wrapper-3" */
+.text-wrapper-3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Styles for the paragraph element with class "text-wrapper-4" */
+.text-wrapper-4 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Styles for the image element with class "checked" */
+.checked {
+  width: 20px;
+  margin-right: 5px;
+}
+
+/* Styles for the div element with class "text-wrapper-5" */
+.text-wrapper-5 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+/* Styles for the paragraph element with class "users-can" */
+.users-can {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Styles for the image element with class "creativity" */
+.creativity {
+  width: 40px;
+  margin-top: 20px;
+}
+
+/* Styles for the image element with class "food" */
+.food {
+  width: 40px;
+  margin-top: 20px;
+}
+
+/* Styles for the div element with class "text-wrapper-6" */
+.text-wrapper-6 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+/* Styles for the paragraph element with class "text-wrapper-7" */
+.text-wrapper-7 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Styles for the image element with class "insurance" */
+.insurance {
+  width: 40px;
+  margin-top: 20px;
+}
+
+/* Styles for the div element with class "text-wrapper-8" */
+.text-wrapper-8 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+/* Styles for the paragraph element with class "text-wrapper-9" */
+.text-wrapper-9 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Styles for the div element with class "text-wrapper-10" */
+.text-wrapper-10 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+/* Styles for the div element with class "overlap-group-wrapper" */
+.overlap-group-wrapper {
+  margin-top: 40px;
+}
+
+/* Styles for the div element with class "overlap-group" */
+.overlap-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the div element with class "text-wrapper-11" */
+.text-wrapper-11 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Styles for the image element with class "img" */
+.img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+/* Styles for the paragraph element with class "text-wrapper-12" */
+.text-wrapper-12 {
+  font-size: 16px;
+}
+
+/* Styles for the div element with class "group-wrapper" */
+.group-wrapper {
+  margin-left: 10px;
+}
+
+/* Styles for the div element with class "group-2" */
+.group-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styles for the div element with class "text-wrapper-13" */
+.text-wrapper-13 {
+  font-weight: bold;
+  font-size: 16px;
 }

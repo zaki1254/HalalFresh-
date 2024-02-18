@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './register.css';
+import backgroundImage from '../home/images/BACKGROUND.jpeg'; // Import the background image
+
+
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -23,7 +26,19 @@ const Register = () => {
   };
 
   return (
-    <div id="registration-page">
+    <div id="registration-page" style={{
+      backgroundImage: `url(${backgroundImage})`, // Using the imported background image
+      backgroundSize: 'cover',
+      height: '100vh',
+      width: '100vh',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexDirection: 'column', // Center items vertically and horizontally
+      color: 'blue', // Text color
+      textAlign: 'center', // Center text
+      padding: '20px' // Add padding for better readability
+    }}>
       <h1>Register</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
