@@ -12,6 +12,8 @@ import Menu from './components/pages/menu'; // Import the Menu component
 import RecipeModal from './components/recipeModal/recipeModal'; // Import the RecipeModal component
 
 
+
+
 function App() {
   return (
     <div className="App">
@@ -27,7 +29,9 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+     
     </div>
+    
   );
 }
 
