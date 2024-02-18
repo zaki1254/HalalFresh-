@@ -2,6 +2,7 @@ import CardComponent from '../card/card'; // Import the Card component
 import malawahImage from './images/malawah.jpeg'; // Import the image for breakfast
 import bananaImage from './images/banana somali.avif'; // Import the image for lunch
 import suqaarImage from './images/suqaar.webp'; // Import the image for dinner
+import Background from './images/BACKGROUND.jpeg'; 
 import '../../App.css';
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       </div>
     </div>
   );
+  
 }
 
 export default Home;

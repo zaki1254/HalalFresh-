@@ -8,8 +8,11 @@ import Contact from './components/pages/contact';
 import Register from './components/pages/register';
 import StartOrder from './components/pages/startOrder';
 import Footer from './components/footer/footer';
+import { Button, Card, Dropdown } from 'react-bootstrap'; // Import Button, Card, and Dropdown from react-bootstrap
 
-      const App = () => {
+function App() {
+  const [count, setCount] = useState(0);
+
   return (
     <>
     <div className="App">
@@ -24,9 +27,11 @@ import Footer from './components/footer/footer';
         {/* Add routes for other pages */}
       </Routes>
       <Footer/>
-      </Router>   </div>
+      </Router>
+    </div>
     </>
   );
 };
+
 
 export default App;
