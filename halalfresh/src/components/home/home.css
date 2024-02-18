@@ -1,0 +1,28 @@
+.back_style {
+    background: url(../../assets/BACKGROUND.jpeg);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; 
+      color: #03396C;
+      text-align: center;
+      padding: 20px;
+     flex-wrap: wrap;
+     background-size: cover;
+     filter: blur();
+}
+
+
+.mainH1 {
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}

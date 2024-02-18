@@ -5,7 +5,7 @@ import './card.css'
 
 function CardComponent({ title, imageSrc }) {
   return (
-    <Card style={{ width: '18rem', justifyContent: 'center', alignItems: 'center' }}>
+    <Card className='main_container' style={{ width: '18rem', justifyContent: 'center', alignItems: 'center' }}>
       <Card.Img variant="top" src={imageSrc} style={{ width: '100px', height: '100px', borderRadius: '50%' }} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>

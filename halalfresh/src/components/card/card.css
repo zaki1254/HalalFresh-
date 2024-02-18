@@ -1,4 +1,17 @@
 .MainButton{
-  background: antiquewhite;
+  background: rgb(18, 67, 100);
 
+}
+
+.main_container {
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body{
+  font-size: large;
 }

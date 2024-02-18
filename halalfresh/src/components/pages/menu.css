@@ -2,13 +2,15 @@
 .menu-container {
     padding: 20px;
     color: #03396C;
-    text-align: center;
+    margin-left: 100px;
+    margin-right: 0;
+    width: 1500px;
   }
   
   .card-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     gap: 20px;
     background: white;
   }
@@ -18,4 +20,5 @@
   .menu-section {
     margin-bottom: 100px;
     margin-bottom: 100px;
+    font-weight: bold;
   }
